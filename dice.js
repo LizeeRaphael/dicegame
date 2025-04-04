@@ -12,10 +12,10 @@ function randomNumber(){
 let player1 = randomNumber();
 let player2 = randomNumber();
 
-let imgSrc1 = `./dice-${player1}.png`;
+let imgSrc1 = `dice-${player1}.png`;
 img[0].src = imgSrc1;
 
-let imgSrc2 = "./dice-" + player2 +  ".png";
+let imgSrc2 = "dice-" + player2 +  ".png";
 img[1].src = imgSrc2;
  console.log(imgSrc1,imgSrc2);
 
